@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Guia de Sobrevivência do Desenvolvedor Iniciante - uma página rica em conteúdo para prática de Git e GitHub."
+    />
+    <title>Guia de Sobrevivência do Desenvolvedor Iniciante</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <div class="brand-block">
+        <p class="eyebrow">Aula prática de Git e GitHub</p>
+        <h1>Guia de Sobrevivência do Desenvolvedor Iniciante</h1>
+        <p class="subtitle">
+          Uma página genérica, robusta e facilmente substituível para treinar
+          alterações, commits e histórico.
+        </p>
+      </div>
+
+      <nav class="site-nav" aria-label="Navegação principal">
+        <a href="#boas-vindas">Boas-vindas</a>
+        <a href="#tarefas">Tarefas</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#agenda">Agenda</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <label for="searchInput" class="search-label">Buscar no conteúdo</label>
+        <input
+          id="searchInput"
+          type="search"
+          placeholder="Digite uma palavra-chave..."
+          aria-label="Buscar no conteúdo da página"
+        />
+        <button id="themeToggle" type="button">Modo Escuro</button>
+      </div>
+    </header>
+
+    <main id="conteudo-principal" class="page-grid">
+      <section id="boas-vindas" class="hero section-card">
+        <div class="hero-copy">
+          <h2>Bem-vindo ao laboratório de prática</h2>
+          <p>
+            Este portal foi desenhado para funcionar como um material de aula
+            completo: possui texto suficiente para gerar alterações reais,
+            componentes reutilizáveis e pontos claros de edição para exercícios
+            de Git.
+          </p>
+          <p>
+            O conteúdo mistura instruções, listas, tabelas e blocos
+            explicativos, de modo que os alunos possam testar commits pequenos,
+            refatorações, conflitos simples e navegação pelo histórico sem
+            depender de um projeto complexo demais.
+          </p>
+          <div class="hero-badges">
+            <span>Semântica HTML</span>
+            <span>CSS Responsivo</span>
+            <span>JS Interativo</span>
+          </div>
+        </div>
+        <aside class="hero-aside">
+          <h3>Dica de aula</h3>
+          <p>
+            Troque o tema, o texto e as cores em etapas pequenas. Assim, o
+            histórico fica legível e os estudantes percebem exatamente o impacto
+            de cada mudança.
+          </p>
+        </aside>
+      </section>
+
+      <section class="section-card content-section" data-topic="contexto">
+        <h2>1. Contexto do projeto</h2>
+        <p>
+          O objetivo é ter uma base realista, mas simples de entender. O tema
+          “desenvolvedor iniciante” permite substituir o texto com facilidade
+          para outros cenários, como um portal de notícias, uma enciclopédia
+          curiosa ou uma revista de tecnologia.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae
+          purus at lectus luctus tempor. Curabitur congue, justo at auctor
+          faucibus, erat ipsum mattis urna, a tincidunt erat justo in velit.
+        </p>
+        <article class="mini-article">
+          <h3>Texto de apoio</h3>
+          <p>
+            Sed non ultricies justo. Phasellus vulputate, magna eu tempor
+            ultrices, sapien erat volutpat enim, non luctus orci lorem in massa.
+            Duis non nisl nec arcu facilisis dignissim.
+          </p>
+        </article>
+      </section>
+
+      <section class="section-card content-section" data-topic="tarefas">
+        <h2 id="tarefas">2. Lista de tarefas para os alunos</h2>
+        <div class="split-columns">
+          <div>
+            <h3>Checklist ordenado</h3>
+            <ol>
+              <li>Clonar o repositório e abrir no editor.</li>
+              <li>Explorar a estrutura de pastas e arquivos.</li>
+              <li>Fazer uma alteração pequena e commitá-la.</li>
+              <li>Editar um bloco de conteúdo e observar o diff.</li>
+              <li>Resolver um conflito simples em dupla ou trio.</li>
+            </ol>
+          </div>
+          <div>
+            <h3>Boas práticas</h3>
+            <ul>
+              <li>Commits pequenos e descritivos.</li>
+              <li>Mensagens claras com verbo no imperativo.</li>
+              <li>Separar HTML, CSS e JavaScript.</li>
+              <li>Testar a interface antes de enviar.</li>
+              <li>Documentar mudanças importantes no próprio código.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-card content-section" data-topic="recursos">
+        <h2 id="recursos">3. Recursos e referências</h2>
+        <p>
+          Os recursos abaixo podem ser usados para organizar a aula e estimular
+          modificações em diferentes arquivos. O conteúdo foi disposto de forma
+          propositalmente rica para gerar commits significativos.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Recurso</th>
+              <th>Tipo</th>
+              <th>Uso sugerido</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML semântico</td>
+              <td>Estrutura</td>
+              <td>Marcar regiões e melhorar leitura</td>
+            </tr>
+            <tr>
+              <td>CSS variável</td>
+              <td>Estilo</td>
+              <td>Alterar identidade visual rapidamente</td>
+            </tr>
+            <tr>
+              <td>JavaScript puro</td>
+              <td>Interatividade</td>
+              <td>Implementar filtros e validações</td>
+            </tr>
+            <tr>
+              <td>GitHub</td>
+              <td>Controle de versão</td>
+              <td>Publicar versões e revisar histórico</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section-card content-section" data-topic="agenda">
+        <h2 id="agenda">4. Agenda da prática</h2>
+        <article>
+          <h3>Sequência recomendada</h3>
+          <p>
+            Primeiro, o professor apresenta o layout. Depois, cada estudante faz
+            uma alteração em um trecho diferente da página. Por fim, o grupo
+            compara os resultados, registra commits e revisa os impactos no
+            histórico.
+          </p>
+        </article>
+        <article>
+          <h3>Possíveis exercícios</h3>
+          <p>
+            Substituir os textos de cabeçalho, mudar as cores da interface,
+            adicionar uma nova seção de conteúdo e alterar a tabela de dados são
+            tarefas ideais para praticar fluxo de trabalho com Git.
+          </p>
+        </article>
+      </section>
+
+      <section class="section-card content-section" data-topic="conteudo-extra">
+        <h2>5. Curiosidades e observações</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat
+          volutpat. Sed a ex a sapien feugiat facilisis. Vestibulum semper nibh
+          non lorem ultrices, vitae venenatis massa pharetra.
+        </p>
+        <p>
+          Morbi at urna ut nunc consequat luctus. Vivamus accumsan, justo sed
+          elementum ultrices, arcu elit feugiat lacus, nec suscipit mauris nisl
+          ac risus. Integer non magna sed justo convallis tincidunt.
+        </p>
+        <aside class="content-note">
+          <h3>Nota rápida</h3>
+          <p>
+            Para substituir o tema, basta trocar os títulos, ícones textuais e
+            blocos de descrição. A estrutura já foi pensada para permanecer
+            estável mesmo após mudanças intensas.
+          </p>
+        </aside>
+      </section>
+
+      <section class="section-card contact-section" id="contato">
+        <h2>Formulário de contato</h2>
+        <p>
+          Use este formulário para simular entradas do usuário e testar
+          validação no JavaScript. Campos vazios, e-mails inválidos e mensagens
+          curtas devem gerar feedback visual na tela.
+        </p>
+        <form id="contactForm" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="name">Nome completo</label>
+              <input id="name" name="name" type="text" placeholder="Seu nome" />
+              <small class="error-message" data-error-for="name"></small>
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="voce@exemplo.com"
+              />
+              <small class="error-message" data-error-for="email"></small>
+            </div>
+            <div class="field">
+              <label for="subject">Assunto</label>
+              <select id="subject" name="subject">
+                <option value="">Selecione um assunto</option>
+                <option value="duvida">Dúvida sobre a aula</option>
+                <option value="sugestao">Sugestão de melhoria</option>
+                <option value="feedback">Feedback geral</option>
+              </select>
+              <small class="error-message" data-error-for="subject"></small>
+            </div>
+            <div class="field field-full">
+              <label for="message">Mensagem</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Escreva sua mensagem aqui..."
+              ></textarea>
+              <small class="error-message" data-error-for="message"></small>
+            </div>
+          </div>
+          <button type="submit">Enviar mensagem</button>
+          <p id="formSuccess" class="form-success" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <aside class="sidebar section-card">
+      <h2>Resumo lateral</h2>
+      <p>
+        Este bloco lateral pode receber conteúdos extras, links de apoio,
+        instruções do professor ou mensagens de destaque durante a aula.
+      </p>
+      <ul>
+        <li>Alteração de conteúdo</li>
+        <li>Experimento visual</li>
+        <li>Validação de formulário</li>
+        <li>Filtro dinâmico</li>
+      </ul>
+    </aside>
+
+    <footer class="site-footer">
+      <p>
+        Projeto-base para aula prática de Git e GitHub. Estrutura
+        intencionalmente rica para revisões, commits e experimentos.
+      </p>
+      <p>
+        Atualize este rodapé com nome da turma, data ou instruções finais
+        conforme necessário.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
